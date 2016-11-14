@@ -1,0 +1,119 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+
+.whole{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: fixed;
+}
+.half{
+	height: 20%;
+	width: 100%;
+	background-size: cover;
+	background-position: fixed;
+}
+.pint{
+	height: 14.5%;
+	width: 100%;
+	background-size: cover;
+	background-position: fixed;
+}
+
+
+/* head stylesheet */
+.head{
+	background-color: white;
+}
+
+.left{
+	float: left;
+	position: relative;
+}
+.left img{
+	height: 100px;
+}
+
+.right{
+	display: inline;
+}
+.right ul{
+	list-style-type: none;
+	
+}
+.right ul li{
+	display: inline-block;
+}
+.bottom{
+	padding-right: 2%;
+}
+.bottom ul li {
+	padding-right: 5px;
+}
+.right ul a{
+	text-decoration: none;
+	color: rgb(207, 146, 18);
+	font-family: Verdana;
+	font-size: 20px;
+}
+.right ul a:hover{
+	color: rgb(34, 64, 149);
+}
+.right ul img:hover{
+	opacity: 1;
+}
+
+.right img{
+	opacity: .2;
+	height: 35px;
+	width: 35px;
+	padding: 2px;
+}
+
+.top{
+	height: 10%;
+	float: right;
+	margin-right: 1%;
+	margin-top: .3%;
+}
+.bottom{
+	margin-top: 3%;
+	height: 10%;
+	float: right;
+}
+.torso{
+	background-image: url('../images/pic.jpg');
+	 }
+.tummy{
+	background-color: white;
+
+}
+.legs{
+	background-color: white;
+}
+.feet{
+	background-color: white;
+}
+
+
+.pc{
+	background-color: red;
+}
+
+.qa{
+	background-color: yellow;
+}
+
+.it{
+	background-color: blue;
+}
+.na{
+	background-color: white;
+}
+.cyber{
+	background-color: black;
+}
