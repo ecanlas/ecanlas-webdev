@@ -1,0 +1,169 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box
+	box-sizing: border-box;
+}/*fixes padding to prevent divs push out each other*/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}/*Force element to self- clear its children -Chris Coyier*/
+
+body{
+	background: #FF0000;
+	font-family: 'Oregano', cursive, Arial, Sans-serif;
+	line-height: 15px;
+	font-size: 14px;
+}
+
+a{
+	color: #f58220;
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	color: #B40404;
+	text-decoration: underline;
+}
+
+#main-wrapper{
+	width: 960px;
+	margin: 0 auto;/*top bottom left right*/
+	background: #ffffff;
+}
+header{
+	height: 150px;
+	background: #FE642E;
+	padding:  0 0 0;
+}
+header h1{
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Sevillana', cursive;
+	color: #ffffff;
+}
+
+.logo{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+}
+.primary ul{
+	background: #666666;
+	list-style: none;
+}
+.primary ul li{
+	float:left;
+	border-right: 1px solid #ffffff;
+	border-top:  1px solid #ffffff;
+	border-left:  1px solid #ffffff;
+	margin-top: 48px;
+}
+
+.primary ul li a{
+	background: #FE642E;
+	display: block;
+	padding: 15px 20px;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Sevillana', cursive;
+	font-size: 20px;
+}
+
+.primary ul li a:hover{
+	background: #ffffff;
+	color: #FE642E;
+}
+.content-wrap{
+	background: #FE642E;;
+
+}
+
+section#main-content{
+	background: #ffffff;
+	float: left;
+	width: 660px;
+	padding: 40px 20px;
+
+}
+
+#main-content h2{
+	color: #B40404;
+	font-family: 'Oregano', cursive;
+	font-size: 30px;
+}
+#main-content hr{
+	border-color: #FE642E;
+
+}
+.uvideo{
+	margin: 15px 10px 15px 10px;
+}
+.thumbnail{
+	float: left;
+	margin-right: 20px;
+}
+
+
+.posts{
+	background: #ffffff;
+	clear: both;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #FE642E;
+	margin-bottom: 40px
+}
+
+.posts div{
+	overflow: hidden;
+}
+
+.posts p{
+	padding: 10px 0 20px 0;
+
+}
+.posts h1 a{
+	font-size: 18px;
+	color: #FE642E;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.posts h1 a:hover{
+	color: #B40404;
+
+}
+.posts .more{
+	text-decoration: none;
+	font-weight: bold;
+}
+aside{
+	width: 300px;
+	background: #FE642E;
+	float: right;
+	padding: 40px 20px;
+
+}
+.side-box{
+	margin-bottom: 40px;
+}
+.sidebar-heading{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #000000;
+}
+footer{
+	clear: both;
+	background: orange;
+	height: 50px;
+}
+footer .small{
+	color: white;
+	font-size: 12px;
+	line-height: 50px;
+}
